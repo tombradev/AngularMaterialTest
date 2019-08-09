@@ -17,11 +17,18 @@ import * as Material from '@angular/material';
   imports: [
     CommonModule,
     Material.MatToolbarModule,
-    Material.MatGridListModule
+    Material.MatGridListModule,
+    Material.MatInputModule,
+    Material.MatFormFieldModule,
+    Material.MatRadioModule
+
   ],
   exports: [
     Material.MatToolbarModule,
-    Material.MatGridListModule
+    Material.MatGridListModule,
+    Material.MatInputModule,
+    Material.MatFormFieldModule,
+    Material.MatRadioModule
 
   ]
 })
