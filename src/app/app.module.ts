@@ -18,7 +18,7 @@ import { MaterialModule} from './material/material.module';
   ],
   imports: [
     BrowserModule,
-    MatToolbarModule
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

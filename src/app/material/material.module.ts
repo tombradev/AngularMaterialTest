@@ -1,13 +1,13 @@
-/* 
+/*
 This file will contain centrelized import modules for angular material and other modules
-All imported material module will have an export 
+All imported material module will have an export
 */
 
 
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-/* additional import 
+/* additional import
  */
 import * as Material from '@angular/material';
 
@@ -17,7 +17,7 @@ import * as Material from '@angular/material';
   imports: [
     CommonModule,
     Material.MatToolbarModule
-  ], 
+  ],
   exports: [
     Material.MatToolbarModule
 
