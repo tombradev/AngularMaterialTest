@@ -20,7 +20,8 @@ import * as Material from '@angular/material';
     Material.MatGridListModule,
     Material.MatInputModule,
     Material.MatFormFieldModule,
-    Material.MatRadioModule
+    Material.MatRadioModule,
+    Material.MatSelectModule
 
   ],
   exports: [
@@ -28,7 +29,8 @@ import * as Material from '@angular/material';
     Material.MatGridListModule,
     Material.MatInputModule,
     Material.MatFormFieldModule,
-    Material.MatRadioModule
+    Material.MatRadioModule,
+    Material.MatSelectModule
 
   ]
 })
