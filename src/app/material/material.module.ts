@@ -16,10 +16,12 @@ import * as Material from '@angular/material';
   declarations: [],
   imports: [
     CommonModule,
-    Material.MatToolbarModule
+    Material.MatToolbarModule,
+    Material.MatGridListModule
   ],
   exports: [
-    Material.MatToolbarModule
+    Material.MatToolbarModule,
+    Material.MatGridListModule
 
   ]
 })
