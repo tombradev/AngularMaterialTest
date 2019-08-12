@@ -21,7 +21,8 @@ import * as Material from '@angular/material';
     Material.MatInputModule,
     Material.MatFormFieldModule,
     Material.MatRadioModule,
-    Material.MatSelectModule
+    Material.MatSelectModule,
+    Material.MatDatepickerModule
 
   ],
   exports: [
@@ -30,7 +31,8 @@ import * as Material from '@angular/material';
     Material.MatInputModule,
     Material.MatFormFieldModule,
     Material.MatRadioModule,
-    Material.MatSelectModule
+    Material.MatSelectModule,
+    Material.MatDatepickerModule
 
   ]
 })
