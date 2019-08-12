@@ -22,6 +22,7 @@ import * as Material from '@angular/material';
     Material.MatFormFieldModule,
     Material.MatRadioModule,
     Material.MatSelectModule,
+    Material.MatCheckboxModule,
     Material.MatDatepickerModule,
     Material.MatNativeDateModule // This dependency in needed within the matdatepicker module
 
@@ -34,6 +35,7 @@ import * as Material from '@angular/material';
     Material.MatFormFieldModule,
     Material.MatRadioModule,
     Material.MatSelectModule,
+    Material.MatCheckboxModule,
     Material.MatDatepickerModule,
     Material.MatNativeDateModule // This dependency in needed within the matdatepicker module
 
