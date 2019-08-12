@@ -23,8 +23,8 @@ import * as Material from '@angular/material';
     Material.MatRadioModule,
     Material.MatSelectModule,
     Material.MatDatepickerModule,
-    Material.MatNativeDateModule //This dependency in needed within the matdatepicker module
-   
+    Material.MatNativeDateModule // This dependency in needed within the matdatepicker module
+
 
   ],
   exports: [
@@ -35,7 +35,7 @@ import * as Material from '@angular/material';
     Material.MatRadioModule,
     Material.MatSelectModule,
     Material.MatDatepickerModule,
-    Material.MatNativeDateModule //This dependency in needed within the matdatepicker module
+    Material.MatNativeDateModule // This dependency in needed within the matdatepicker module
 
   ]
 })
