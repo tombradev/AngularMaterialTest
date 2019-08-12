@@ -38,13 +38,17 @@
               <mat-option value="{{department.id}}">{{department.value}}</mat-option>
             </ng-container>
           </mat-select>
-        </mat-form-field>
+        </mat-form-field> 
+<!--         <mat-form-field>
+          <input formControlName="hireDate" matInput [matDatepicker]="picker" placeholder="Hire Date">
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field> -->
         <mat-form-field>
           <input formControlName="hireDate" matInput [matDatepicker]="picker" placeholder="Hire Date">
           <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-          <button matSuffix [matDatepickerToggle]="picker"></button>
           <mat-datepicker #picker></mat-datepicker>
-        </mat-form-field> 
+        </mat-form-field>
       </div>
     </mat-grid-tile>
   </mat-grid-list>
