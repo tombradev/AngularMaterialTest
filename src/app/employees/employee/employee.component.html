@@ -6,16 +6,19 @@
       <div class="controller-container">
         <input type="hidden" formControlName="$key"> <!-- primary key for the property -->
         <mat-form-field>
-          <input formControlName="firstName" matInput placeholder="First Name">
+          <input formControlName="firstName" matInput placeholder="First Name*">
+          <matt-error>This field is requried</matt-error> <!-- adding error message -->
         </mat-form-field>
         <mat-form-field>
-          <input formControlName="lastName" matInput placeholder="Last Name">
+          <input formControlName="lastName" matInput placeholder="Last Name*">
+          <matt-error>This field is requried</matt-error>
         </mat-form-field>
         <mat-form-field>
           <input formControlName="email" matInput placeholder="Email">
         </mat-form-field>
         <mat-form-field>
-          <input formControlName="mobile" matInput placeholder="Mobile">
+          <input formControlName="mobile" matInput placeholder="Mobile*">
+          <matt-error **ngIf="service.form.controls['mobile'].errors?.requried">This field is madatory</matt-error>
         </mat-form-field>
         <mat-form-field>
           <input formControlName="city" matInput placeholder="City">

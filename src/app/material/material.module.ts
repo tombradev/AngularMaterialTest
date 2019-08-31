@@ -33,7 +33,7 @@ import * as Material from '@angular/material';
     Material.MatToolbarModule,
     Material.MatGridListModule,
     Material.MatInputModule,
-    Material.MatFormFieldModule,
+    Material.MatFormFieldModule, // there is an error mat directive here
     Material.MatRadioModule,
     Material.MatSelectModule,
     Material.MatCheckboxModule,
